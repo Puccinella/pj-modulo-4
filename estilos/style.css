@@ -78,7 +78,7 @@ form > div.campo{
 
 div.campo > input{
     background-color: #6cd3cf;
-    width: calc(100% - 30px);
+    width: calc(100% - 70px);
 
     height: 100%;
     border: none;
@@ -86,7 +86,7 @@ div.campo > input{
     padding: 4px;
 
     transform: translateY(-40px);
-    transform: translateX(40px);
+    transform: translateX(80px);
 }
 
 div.campo > input:focus-within{
