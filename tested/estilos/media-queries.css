@@ -1,0 +1,91 @@
+@charset "UTF-08";
+
+/* Todas as demais midias */
+/* Typical Device Breakpoints
+Pequenas telas: até 600px
+Celular: de 600 até 768px
+Tablet: 768px até 992px
+Desktop: 992 até 1200px
+Grandes telas: acima de 1200px
+*/
+
+/*cores:
+1-#4b2617
+2-#894d22
+3-#d48b2d
+4-#e4a960
+5-#ab7b61
+6-#9b7f74
+7-#948079
+8-#948586
+9-#968d8e
+10-#8c8990
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to top,#1e0c0b, #4b2617,#894d22,#d48b2d,#e4a960,#b7815b,#9b7f74,#948079,#948586,#8c8990);
+        background-position: center bottom;
+    }
+
+    #login{
+        width: 80vw;
+        height: 300px;
+    }
+    #login > #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    #login > #form{
+        float: right;
+        width: 70%;
+    }
+    section > #imagem{
+        background-image: url(../imagens/duna2.jpeg);
+    }
+    #form > h1{
+        font-size: 1.8em;
+        margin-bottom: 10px;
+    }
+    #form > p{
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-image: linear-gradient(to top, black, rgb(39, 38, 38), rgb(86, 85, 85), rgba(255, 255, 255, 0));
+    }
+    
+    #login{
+        width: 950px;
+        height: 350px;
+    }
+    #login > #imagem{
+        float: right;
+        width: 45%;
+        height: 100%;
+    }
+    #login > #form{
+        float: left;
+        width: 55%;
+    }
+
+    #form > h1{
+        font-size: 2.9em;
+    }
+    
+    #form >p{
+        font-size: 1.15em;
+        margin: 20px 0px;
+    }
+
+    section > #imagem{
+        background-image: url(../imagens/duna1.jpeg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+}
