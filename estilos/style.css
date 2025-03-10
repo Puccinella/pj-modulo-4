@@ -78,14 +78,14 @@ form > div.campo{
 
 div.campo > input{
     background-color: #6cd3cf;
-    width: calc(100% - 44.5px);
+    width: calc(100% - 42px);
 
     height: 100%;
     border: none;
     border-radius: 8px;
     padding: 4px;
 
-    transform: translateY(-14.4px);
+    transform: translateY(-14px);
 }
 
 div.campo > input:focus-within{
