@@ -60,4 +60,14 @@ Grandes telas: acima de 1200px
         font-size: 1em;
         margin: 20px 0px;
     }
+    div.campo > input{
+        background-color: #6cd3cf;
+        width: calc(100% - 45px);
+        font-size: 1em;
+        height: 100%;
+        border: none;
+        border-radius: 8px;
+        padding: 4px;
+        transform: translateY(-13.7px);
+    }
 }
