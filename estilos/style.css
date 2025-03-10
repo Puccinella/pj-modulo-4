@@ -1,4 +1,4 @@
-@charset "utf-08";
+8@charset "utf-08";
 
 /*Paleta de cores
     verde: #49a09d
@@ -78,7 +78,7 @@ form > div.campo{
 
 div.campo > input{
     background-color: #6cd3cf;
-    width: calc(100% - 20px);
+    width: calc(100% - 30px);
 
     height: 100%;
     border: none;
@@ -86,6 +86,7 @@ div.campo > input{
     padding: 4px;
 
     transform: translateY(-40px);
+    transform: translateX(40px);
 }
 
 div.campo > input:focus-within{
